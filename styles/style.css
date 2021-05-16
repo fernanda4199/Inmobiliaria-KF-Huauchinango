@@ -1,0 +1,86 @@
+*{
+  margin: 1;
+  padding: 0;
+}
+header{
+  font-family: Helvetica;
+  width: 1000px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+#menu li>a{
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+hr{
+  border-color:black;
+  margin-left: 350px;
+}
+h1{
+font-family: 'Abril Fatface', cursive;
+font-size: 60px;
+font-color: #01579B;
+}
+h2{
+font-size: 30px;  
+margin-left: 350px; 
+}
+img.logo{
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-right: 40px; 
+  margin-bottom: 20px;
+}
+.contenedor{
+    margin-left: 50px;
+    position: relative;
+    display: inline-block;
+    text-align: justify-all;
+}
+.texto-encima{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h4{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+img.fc{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px; 
+}
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+}
